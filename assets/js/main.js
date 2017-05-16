@@ -11,3 +11,8 @@ var sobre = document.getElementById("sobre-mi");
 	sobre.addEventListener("mouseover", function(){
 		alert("Estás sobre mi.")
 	})
+
+var fuera = document.getElementById("fuera-de-mi");
+	fuera.addEventListener("mouseout", function(){
+		alert("No estás sobre mi.")
+	})
